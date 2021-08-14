@@ -193,7 +193,7 @@ task('clean:dist', function(done) {
 function browserSyncInit(done) {
 	browserSync.init({
 		server: {
-			baseDir: './src'
+			baseDir: './src/index.html'
 		},
 		port: 3000
 	});
